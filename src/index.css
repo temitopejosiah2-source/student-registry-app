@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;650;700;750&family=Manrope:wght@400;500;600;650;700;750&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #354139;
+  background: #fbfcf8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --sans: 'DM Sans', sans-serif;
+  --heading: 'Manrope', sans-serif;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  scroll-behavior: smooth;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 76% 4%, rgba(235, 240, 229, .46), transparent 33%),
+    #fbfcf8;
+}
+
+button, input { font: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid #72977b; outline-offset: 2px; }
+a { color: inherit; }
+
+#root { min-height: 100vh; }
+
+::selection { color: #183e2e; background: #d9e8d7; }
